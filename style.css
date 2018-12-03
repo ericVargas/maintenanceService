@@ -8,7 +8,7 @@ html,
 body {
     height: 100%;
     background-color: #4BD4E4;
-    background-image: linear-gradient(to left, #3E6BFE , #4BD4E4);
+    background-image: linear-gradient(to left, #3E6BFE, #4BD4E4);
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
 
 .top {
     background-color: #3E6BFE;
-    background-image: linear-gradient(to right, #3E6BFE , #4BD4E4);
+    background-image: linear-gradient(to right, #3E6BFE, #4BD4E4);
 }
 
 header {
@@ -42,7 +42,7 @@ header {
     font-size: 1.2rem;
 }
 
-nav{
+nav {
     width: 50%;
     margin: 10px 0 25px 25px;
 }
@@ -64,70 +64,55 @@ ul {
     border-radius: 30px;
 }
 
-.summary a:hover{
+.summary a:hover {
     color: #000;
     background: #fff;
     border-color: #000;
 }
 
-.image{
+.image {
     background-image: url(cleaning.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.contact{
-    width: 600px;
+.contact {
+    width: 80%;
     margin: 0 auto;
     padding: 50px 0;
     text-align: center;
-    
+
 }
 
-.contact p{
+.contact p {
     padding: 20px 0;
     font-size: 1.2rem;
 }
 
-footer{
+footer {
     text-align: center;
     padding: 30px 0;
     font-size: 1.3rem;
     color: #fff;
     background-color: #000;
-    background-image: linear-gradient(to right, #3E6BFE , #4BD4E4);
+    background-image: linear-gradient(to right, #3E6BFE, #4BD4E4);
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    .container {
+        width: 100%;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .middle {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    nav {
+    width: 100%;
+    margin: 10px auto;
 }
+
+    .contact {
+        margin: 0 auto;
+    }
