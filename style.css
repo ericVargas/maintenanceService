@@ -82,7 +82,6 @@ ul {
     margin: 0 auto;
     padding: 50px 0;
     text-align: center;
-
 }
 
 .contact p {
@@ -102,16 +101,17 @@ footer {
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
     .container {
         width: 100%;
+        margin: 0;
     }
 
     .middle {
         grid-template-columns: repeat(1, 1fr);
     }
-    
+
     nav {
-    width: 100%;
-    margin: 10px auto;
-}
+        width: 100%;
+        margin: 10px auto;
+    }
 
     .contact {
         margin: 0 auto;
