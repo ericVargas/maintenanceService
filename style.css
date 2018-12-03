@@ -24,7 +24,7 @@ body {
 
 header {
     color: #fff;
-    padding: 10px;
+    padding: 15px;
 }
 
 .middle {
@@ -35,11 +35,10 @@ header {
 
 .summary {
     color: #fff;
-    position: relative;
 }
 
 .summary p {
-    padding: 10px 0;
+    padding: 15px 0;
     font-size: 1.2rem;
 }
 
@@ -71,11 +70,6 @@ ul {
     border-color: #000;
 }
 
-img{
-    width: 75%;
-    height: 75%;
-}
-
 .image{
     background-image: url(cleaning.png);
     background-size: contain;
@@ -86,20 +80,23 @@ img{
 .contact{
     width: 600px;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 50px 0;
     text-align: center;
     
 }
 
 .contact p{
-    padding: 15px 0;
+    padding: 20px 0;
     font-size: 1.2rem;
 }
 
 footer{
     text-align: center;
-    padding: 30px 0 10px 0;
+    padding: 30px 0;
     font-size: 1.3rem;
+    color: #fff;
+    background-color: #000;
+    background-image: linear-gradient(to right, #3E6BFE , #4BD4E4);
 }
 
 
