@@ -15,11 +15,14 @@ body {
     width: 75%;
     margin: 60px auto;
     background-color: #fff;
+    border-radius: 30px;
 }
 
 .top {
     background-color: #3E6BFE;
     background-image: linear-gradient(to right, #3E6BFE, #4BD4E4);
+    border-radius: 25px 25px 0 0;
+
 }
 
 header {
@@ -96,6 +99,7 @@ footer {
     color: #fff;
     background-color: #000;
     background-image: linear-gradient(to right, #3E6BFE, #4BD4E4);
+    border-radius: 0 0 25px 25px;
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -115,5 +119,9 @@ footer {
 
     .contact {
         margin: 0 auto;
+    }
+    
+    .top, footer{
+        border-radius: 0;
     }
 }
